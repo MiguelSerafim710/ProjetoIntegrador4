@@ -6,4 +6,7 @@ import { Component } from '@angular/core';
   templateUrl: './ex3.html',
   styleUrl: './ex3.scss',
 })
-export class Ex3 {}
+export class Ex3 {
+   imagemProduto = 'https://s1.static.brasilescola.uol.com.br/be/conteudo/images/imagem-em-lente-convexa.jpg';
+  descricaoImagem = 'Imagem de um globo';
+}

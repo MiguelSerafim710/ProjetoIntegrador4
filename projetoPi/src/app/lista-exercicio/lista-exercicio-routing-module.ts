@@ -3,10 +3,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { ListaExercicioModule } from './lista-exercicio-module';
 import { Ex1 } from './ex1/ex1';
 import { Ex2 } from './ex2/ex2';
+import { Ex3 } from './ex3/ex3';
 
 const routes: Routes = [
   {path: 'ex1', component: Ex1},
-  {path: 'ex2', component: Ex2}
+  {path: 'ex2', component: Ex2},
+  {path: 'ex3', component: Ex3}
 ];
 
 @NgModule({
