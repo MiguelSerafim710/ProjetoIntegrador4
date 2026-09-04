@@ -5,9 +5,10 @@ import { AppRoutingModule } from './app-routing-module';
 import { App } from './app';
 import { Cadastro } from './categoria/cadastro/cadastro';
 
+
 @NgModule({
-  declarations: [App, ],
-  imports: [BrowserModule, AppRoutingModule],
+  declarations: [App],
+  imports: [BrowserModule, AppRoutingModule,],
   providers: [provideBrowserGlobalErrorListeners()],
   bootstrap: [App],
 })

@@ -5,6 +5,10 @@ const routes: Routes = [
   {
     path: 'categoria',
     loadChildren: () => import('./categoria/categoria-module').then(m => m.CategoriaModule)
+  },
+  {
+    path: 'lista-exercicio',
+    loadChildren: () => import('./lista-exercicio/lista-exercicio-module').then(m => m.ListaExercicioModule)
   }
 ];
 
